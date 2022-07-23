@@ -1,0 +1,25 @@
+﻿  ソース.cpp
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(287,20): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(287,17): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(291,16): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(291,13): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(298,16): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(298,13): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(198,6): warning C4101: 'Screen': ローカル変数は 1 度も使われていません。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(367,36): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(367,20): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(378,31): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(386,15): warning C4244: '初期化中': 'const _Ty' から 'int' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(389,12): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(401,24): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(409,15): warning C4244: '初期化中': 'const _Ty' から 'int' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Noguc\source\repos\Summer_Production_\Summer_Production_\ソース.cpp(412,12): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+  Summer_Production_.vcxproj -> C:\Users\Noguc\source\repos\Summer_Production_\x64\Debug\Summer_Production_.exe

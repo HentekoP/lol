@@ -1,0 +1,105 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "'WinMain' に対する整合性のない注釈: このインスタンスには 注釈なし が含まれます。c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\um\\winbase.h(1006) を参照してください。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Noguc/source/repos/Summer_Production_/Summer_Production_/ソース.cpp"
+                },
+                "region": {
+                  "startLine": 419,
+                  "startColumn": 12,
+                  "endLine": 419,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WinMain",
+                  "decoratedName": "WinMain",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31332.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Noguc/source/repos/Summer_Production_/Summer_Production_/ソース.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "1fc61f9a7f2960fa8dbac66f1304c6da93cbe0c9c2b757f80681682511daea9d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dxlib_vc/プロジェクトに追加すべきファイル_vc用/dxlib.h"
+          },
+          "hashes": {
+            "sha-256": "9f30996dbb055c198fe58623eed50794c9637ada41b63d491b71ce04fa1cdad6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dxlib_vc/プロジェクトに追加すべきファイル_vc用/dxcompileconfig.h"
+          },
+          "hashes": {
+            "sha-256": "6f590effc35e13906b8f9b0f9bc10622ba627ff88ed1e23cb2567e9ba57a4fab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dxlib_vc/プロジェクトに追加すべきファイル_vc用/dxdatatype.h"
+          },
+          "hashes": {
+            "sha-256": "ce8684292ef5f5be44a3339fc73a5ff0f853f79cf2d5560adf43d24885b0278b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dxlib_vc/プロジェクトに追加すべきファイル_vc用/dxdatatypewin.h"
+          },
+          "hashes": {
+            "sha-256": "847728995b0df959a02cdb36f478ef5b1210970cb93a50a302cb31f53a7cced0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dxlib_vc/プロジェクトに追加すべきファイル_vc用/dxfunctionwin.h"
+          },
+          "hashes": {
+            "sha-256": "f41d20cffefae8e613635ad02d1784b2fe545d34c0a787547e508bded4815f1c"
+          }
+        }
+      ]
+    }
+  ]
+}
