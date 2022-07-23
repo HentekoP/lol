@@ -131,7 +131,7 @@ int mario0[9];
 int mario1[9];
 
 int motion = 0;
-int act_motion[] = { 1,2,3, };
+int act_motion[] = { 1,2,3,3, };
 int act_index = 0;
 const int MAX_MOTION_INDEX = 3; //
 
@@ -237,7 +237,7 @@ void CHARA_Move()
 
 	if(Jump_count == 0)
 	{
-		yadd += 0.4f;
+		yadd += 0.7f;
 	}
 
 	if (input & PAD_INPUT_B && MarioGround != true)
